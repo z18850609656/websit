@@ -1,1 +1,3 @@
+git config --global user.email "2839429235@qq.com"
 ¶î¶ì¶ì¶ì
+ git config --global user.name "ztl"
