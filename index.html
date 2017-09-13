@@ -1,10 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>official  website</title>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- 优先使用 IE 最新版本和 Chrome -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"/>
+    <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!-- 用户的缩放的最大的比例 禁止手动缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--引入公用的js-->
+    <script src="js/main/jquery-3.2.1.min.js"></script>
+    <script src="js/main/bootstrap.min.js"></script>
+    <script src="js/common/head.js"></script>
+    <script src="js/index.js"></script>
+
+    <!--引入公用的css-->
+    <link rel="stylesheet" href="css/main/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main/base.css"/>
+    <!--引入私有的css-->
+    <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
-zhangtianli
+<!--大容器-->
+<div class="banner pages-1">
+    <div class="jumbotron banner-h1">
+        <div class="banner-text">
+            <img class="img-responsive center-block" src="images/Create%20Business%20Valu.png" srcset="images/Create Business Valu@2x.png 2x,images/Create Business Valu@3x.png 3x" />
+        </div>
+        <div class="banner-h3">
+            <h3>以创新的互联网+金融服务帮助企业创造更大的商业价值</h3>
+        </div>
+    </div>
+</div>
+<div class="box-big">
+    <div class="">
+        <div class="">
+            <nav class="navbar navbar-default navbar-top" role="navigation" id="navbar-top">
+                <div class="container">
+                    <div class="container-fluid nav-container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle nav-button" data-toggle="collapse"
+                                    data-target="#example-navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a  href="javascript:void(0)"></a>
+                            <img src="images/logo.png" srcset="images/logo@2x.png 2x,images/logo@3x.png 3x" class="logo-img img-responsive">
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right" id="example-navbar-collapse">
+                            <ul class="nav navbar-nav nav-list">
+                                <li class="nav-active">
+                                    <a href="#">产品服务</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">解决方案</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                                        关于我们
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">开发者中心</a>
+                                </li>
+                                <li class="login">
+                                    <a href="javascript:void(0)">登录/注册</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            <div class="page-header title-page2">
+                <h1>产品服务
+                    <p>SERVICE</p>
+                </h1>
+            </div>
+            <div class="container container-wrap-page2">
+                <div class="row row-list">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                        <div class="thumbnail page2-wrap">
+                            <img src="images/jhzf_icon-c.png" srcset="images/jhzf_icon-c@2x.png 2x, images/jhzf_icon-c@3x.png 3x"
+                                 alt="聚合支付" name="imgMouse1" onmouseover="moverOver1()" onmouseout="moverOut1()"/>
+                            <div class="">
+                                <div class="caption page2-caption page-p">
+                                    <h3>聚合支付</h3>
+                                    <p >Aggregate pay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                        <div class="thumbnail page2-wrap">
+                            <img src="images/xfjr_icon-c.png" srcset="images/xfjr_icon-c@2x.png 2x,images/xfjr_icon-c@3x.png 3x"
+                                 alt="消费金融" name="imgMouse2" onmouseover="moverOver2()" onmouseout="moverOut2()"/>
+                            <div class="">
+                                <div class="caption page2-caption page-p">
+                                    <h3>消费金融</h3>
+                                    <p>Consumption</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                        <div class="thumbnail page2-wrap">
+                            <img src="images/gyljr_icon-c.png" srcset="images/gyljr_icon-c@2x.png 2x, images/gyljr_icon-c@3x.png 3x"
+                                 alt="供应链金融" name="imgMouse3" onmouseover="moverOver3()" onmouseout="moverOut3()"/>
+                            <div class="">
+                                <div class="caption page2-caption page-p">
+                                    <h3>供应链金融</h3>
+                                    <p>Supply Chain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                        <div class="thumbnail page2-wrap">
+                            <img src="images/dzfw_icon-c.png" srcset="images/dzfw_icon-c@2x.png 2x, images/dzfw_icon-c@3x.png 3x"
+                                 alt="定制服务" name="imgMouse4" onmouseover="moverOver4()" onmouseout="moverOut4()"/>
+                            <div class="">
+                                <div class="caption page2-caption page-p">
+                                    <h3>定制服务</h3>
+                                    <p>Custom Service</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="page2">
+        <div class="page-header title-page2 title-page3 page-p">
+            <h1>解决方案
+                <p>PRODUCTS</p>
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                    <div class="thumbnail  page3-wrap-bg1">
+                        <div class="caption page3Title">
+                            <div class="icon">
+                                <img src="images/aqbz.svg" class="img-responsive center-block"/>
+                            </div>
+                            <h3>安全保证</h3>
+                            <p>资金从银行直接清算到银行卡</p>
+                            <div class="border-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                    <div class="thumbnail  page3-wrap-bg2">
+                        <div class="caption page3Title">
+                            <div class="icon" style="padding-top: 1.8%">
+                                <img src="images/cdfl.svg" class="img-responsive center-block"/>
+                            </div>
+                            <h3>超低费率</h3>
+                            <p>结算费率低于行业均值,商户即可加入</p>
+                            <div class="border-bottom"></div>
+                            <p>超低门槛低费率，以开发者文档快速接入支付，灵活便利满足多</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
+                    <div class="thumbnail  page3-wrap-bg3">
+                        <div class="caption page3Title">
+                            <div class="icon">
+                                <img src="images/jhzf.svg" class="img-responsive center-block"/>
+                            </div>
+                            <h3>聚合支付</h3>
+                            <p>接入多种主流支付方式</p>
+                            <div class="border-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail  page3-wrap-bg4">
+                        <div class="caption page3Title">
+                            <div class="icon">
+                                <img src="images/cdfl.svg" class="img-responsive center-block"/>
+                            </div>
+                            <h3>增值服务</h3>
+                            <p>提供金融产品及技术服务</p>
+                            <div class="border-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="page4">
+        <div class="page-header title-page2 title-page3 title-page4">
+            <h1>关于我们
+                <p>ABOUT  US</p>
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail page2-wrap page4-wrap-bg1 ">
+                        <div class="middle">
+                            <div class="caption page3Title">
+                                <h3 class="page4-h3">EXPLORE FUERDAI</h3>
+                            </div>
+                            <div class="more">
+                                <img src="images/Oval%202.png" srcset="images/Oval 2@2x.png 2x,images/Oval 2@3x.png 3x">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail page2-wrap page4-wrap-bg2">
+                        <div class="caption page3Title">
+                            <h3 class="page4-h3">WORK WITH US</h3>
+                        </div>
+                        <div class="more">
+                            <img src="images/Oval%202.png" srcset="images/Oval 2@2x.png 2x,images/Oval 2@3x.png 3x">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page2 page5">
+        <div class="page-header title-page2 title-page3 page5-title">
+            <h1>P A R T N E R
+                <p>与追求极致的合作伙伴深度执行“技术与金融”服务，创造商业价值</p>
+            </h1>
+        </div>
+        <div class="container content">
+            <div class="arrow-left-icon">
+                <img src="images/Fill%201%20Copy%202.svg"/>
+            </div>
+            <div class="arrow-right-icon">
+                <img src="images/Fill%201%20Copy.svg"/>
+            </div>
+            <div class="row row-middle">
+                <div class="col-sm-12 col-md-12">
+                    <ul class="event-links">
+                        <li class="page5-wrap1"><a href="javascript:void(0)" class="event-link"> <img src="images/xy.png" srcset="images/xy@2x.png 2x,images/xy@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap2"><a href="javascript:void(0)" class="event-link"><img src="images/yw.png" srcset="images/yw@2x.png 2x,images/yw@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap3"><a href="javascript:void(0)" class="event-link"> <img src="images/china.png" srcset="images/china@2x.png 2x,images/china@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap4"><a href="javascript:void(0)" class="event-link"> <img src="images/pa.png" srcset="images/pa@2x.png 2x,images/pa@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap5"><a href="javascript:void(0)" class="event-link"><img src="images/zss.png" srcset="images/zss@2x.png 2x,images/zss@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap6"><a href="javascript:void(0)" class="event-link">  <img src="images/zx.png" srcset="images/zx@2x.png 2x,images/zx@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap7"><a href="javascript:void(0)" class="event-link"><img src="images/ZFB.png" srcset="images/ZFB@2x.png 2x,images/ZFB@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap8"><a href="javascript:void(0)" class="event-link"><img src="images/ard.png" srcset="images/arda@2x.png 2x,images/ard@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap9"><a href="javascript:void(0)" class="event-link">  <img src="images/zlf.png" srcset="images/zlf@2x.png 2x,images/zlf@3x.png 3x" class="img-responsive"/></a></li>
+                        <li class="page5-wrap10"><a href="javascript:void(0)" class="event-link">  <img src="images/dmd.png" srcset="images/dmd@2x.png 2x,images/dmd@3x.png 3x" class="img-responsive"/></a></li>
+                    </ul>
+                </div>
+                <!--<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1">
+                    <div class="thumbnail page5-wrap1">
+                        <img src="images/xy.png" srcset="images/xy@2x.png 2x,images/xy@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap2 ">
+                        <img src="images/yw.png" srcset="images/yw@2x.png 2x,images/yw@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap3">
+                        <img src="images/china.png" srcset="images/china@2x.png 2x,images/china@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap4">
+                        <img src="images/pa.png" srcset="images/pa@2x.png 2x,images/pa@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap5">
+                        <img src="images/zss.png" srcset="images/zss@2x.png 2x,images/zss@3x.png 3x"/>
+                    </div>
+                </div>-->
+            </div>
+           <!-- <div class="row row-middle">
+                <div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1">
+                    <div class="thumbnail page5-wrap6">
+                        <img src="images/zx.png" srcset="images/zx@2x.png 2x,images/zx@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap7 ">
+                        <img src="images/ZFB.png" srcset="images/ZFB@2x.png 2x,images/ZFB@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap8">
+                        <img src="images/ard.png" srcset="images/arda@2x.png 2x,images/ard@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap9">
+                        <img src="images/zlf.png" srcset="images/zlf@2x.png 2x,images/zlf@3x.png 3x"/>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail page5-wrap10">
+                        <img src="images/dmd.png" srcset="images/dmd@2x.png 2x,images/dmd@3x.png 3x"/>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <div class="page6 col-sm-12 col-md-12">
+            <div class="jumbotron page6-h1">
+                <div class="banner-h3 page6-h3">
+                    <h3>以创新的互联网+金融服务帮助企业创造更大的商业价值</h3>
+                </div>
+                <div class="Page6-p">
+                    <p>开启支付新时代</p>
+                </div>
+            </div>
+        </div>
+        <div class="page7">
+            <div class="container">
+                <div class="col-xs-12 col-md-12">
+                    <div style="text-align:center;">
+                        <img src="images/logo%20copy.png" srcset="images/logo@2x.png 2x,images/logo@3x.png 3x" style="margin: 0 auto; width: 128px;
+    height: 123px" class=" img-responsive">
+                    <ul class="event-links">
+                        <li><a href="javascript:void(0)" class="event-link">产品服务</a></li>
+                        <li><a href="javascript:void(0)" class="event-link">解决方案</a></li>
+                        <li><a href="javascript:void(0)" class="event-link">关于我们</a></li>
+                        <li><a href="javascript:void(0)" class="event-link">开发中心</a></li>
+                        <li><a href="javascript:void(0)" class="event-link">登录/注册</a></li>
+                    </ul>
+                        <ul class="event-links event-links-img">
+                            <li><a href="javascript:void(0)" class="event-link"> <img src="images/weixin.svg"/></a></li>
+                            <li><a href="javascript:void(0)" class="event-link"><img src="images/px.svg"/></a></li>
+                            <li><a href="javascript:void(0)" class="event-link"><img src="images/wp.svg"/></a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+            <div class="page8-foot">
+                <div class="container">
+                    <div class="col-xs-12 col-md-12">
+                        <div style="text-align:center;">
+                            <h3>付二代 (厦门) 信息科技有限公司</h3>
+                            <span>地址：福建省厦门市思明区观音山运营中心18号3楼</span>&nbsp;&nbsp;&nbsp<span>电话：0755-61952518</span>&nbsp;&nbsp;&nbsp;  <span> 邮箱：paytwo@yeah.net</span>&nbsp;&nbsp;&nbsp;<span>© 2017 fuerdai.com 版权所有 闽ICP证17022026号</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
 </body>
 </html>
