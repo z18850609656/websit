@@ -17,6 +17,9 @@ body{
     height: 678px;
     background: url(../images/star.png);
     background-color: #000;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 .container{
     position: relative;
@@ -28,6 +31,7 @@ body{
 }
 .navbar-top .navbar-right{
     float: right;
+    border: none;
 }
 .navbar-default .navbar-nav>li>a{
     color:#CCCCCC;
@@ -67,7 +71,7 @@ body{
 }
 .banner-text img{
    width: 669px;
-   height: 42px;
+  /* height: 42px;*/
     margin-bottom: 30px;
 }
 .banner-h3 h3{
@@ -76,6 +80,7 @@ body{
 }
 .navbar-top .nav-button{
     margin-top: 29px;
+    border: none;
 }
 .banner-text{
     margin-top: 27px;
@@ -158,52 +163,92 @@ body{
     letter-spacing: 0;
 }
 .page3-wrap-bg1{
-    width:100%;
+    background: none;
+    border: none;
     height:331px;
+    position: relative;
+    top:0;
     background-size:100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0;
+    background-image: url(../images/aqbz_bg_c.png);
+    background-image: -webkit-image-set(url(../images/aqbz_bg_c.png) 1x,url(../images/aqbz_bg_c@2x.png) 2x,url("../images/aqbz_bg_c@3x.png") 3x);
+    background-image: -moz-image-set(url(../images/aqbz_bg_c.png) 1x,url(../images/aqbz_bg_c@2x.png) 2x,url("../images/aqbz_bg_c@3x.png") 3x);
+    background-image: -o-image-set(url(../images/aqbz_bg_c.png) 1x,url(../images/aqbz_bg_c@2x.png) 2x,url("../images/aqbz_bg_c@3x.png") 3x);
+    background-image: -ms-image-set(url(../images/aqbz_bg_c.png) 1x,url(../images/aqbz_bg_c@2x.png) 2x,url("../images/aqbz_bg_c@3x.png") 3x);
+
+}
+.page3-wrap-bg1:hover{
+    position: relative;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
     background-image: url(../images/anq_bg.png);
     background-image: -webkit-image-set(url(../images/anq_bg.png) 1x,url(../images/anq_bg@2x.png) 2x,url("../images/anq_bg@3x.png") 3x);
     background-image: -moz-image-set(url(../images/anq_bg.png) 1x,url(../images/anq_bg@2x.png) 2x,url("../images/anq_bg@3x.png") 3x);
     background-image: -o-image-set(url(../images/anq_bg.png) 1x,url(../images/anq_bg@2x.png) 2x,url("../images/anq_bg@3x.png") 3x);
     background-image: -ms-image-set(url(../images/anq_bg.png) 1x,url(../images/anq_bg@2x.png) 2x,url("../images/anq_bg@3x.png") 3x);
 }
+.page3-wrap-bg1 .bottom-p{
+    opacity: 0;
+}
+.page3-wrap-bg1:hover .bottom-p{
+    opacity:1;
+}
+.page3-wrap-bg1 .page3-hover{
+    position: relative;
+    top: 0;
+}
+ .page3-wrap-bg1:hover .page3-hover{
+     position: relative;
+     top: -10px;
+ }
+.trans {
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
 .page3-wrap-bg2{
-    width:100%;
+    position: relative;
+    opacity: 1;
     height:331px;
-    background-size:cover;
+    background-size:100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../images/cdfl_bg.png);
-    background-image: -webkit-image-set(url(../images/cdfl_bg.png) 1x,url(../images/cdfl_bg@2x.png) 2x,url("../images/cdfl_bg@3x.png") 3x);
-    background-image: -moz-image-set(url(../images/cdfl_bg.png) 1x,url(../images/cdfl_bg@2x.png) 2x,url("../images/cdfl_bg@3x.png") 3x);
-    background-image: -o-image-set(url(../images/cdfl_bg.png) 1x,url(../images/cdfl_bg@2x.png) 2x,url("../images/cdfl_bg@3x.png") 3x);
-    background-image: -ms-image-set(url(../images/cdfl_bg.png) 1x,url(../images/cdfl_bg@2x.png) 2x,url("../images/cdfl_bg@3x.png") 3x);
+    background-position: 0 0;
+    background-image: url(../images/cdfl-bg_c.png);
+    background-image: -webkit-image-set(url(../images/cdfl-bg_c.png) 1x,url(../images/cdfl-bg_c@2x.png) 2x,url("../images/cdfl_bg@3x.png") 3x);
+    background-image: -moz-image-set(url(../images/cdfl-bg_c.png) 1x,url(../images/cdfl-bg_c@2x.png) 2x,url("../images/cdfl-bg_c@3x.png") 3x);
+    background-image: -o-image-set(url(../images/cdfl-bg_c.png) 1x,url(../images/cdfl-bg_c@2x.png) 2x,url("../images/cdfl-bg_c@3x.png") 3x);
+    background-image: -ms-image-set(url(../images/cdfl-bg_c.png) 1x,url(../images/cdfl-bg_c@2x.png) 2x,url("../images/cdfl-bg_c@3x.png") 3x);
 }
 .page3-wrap-bg3{
-    width:100%;
+    position: relative;
+    opacity: 1;
     height:331px;
-    background-size:cover;
+    background-size:100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../images/jhzf_bg.png);
-    background-image: -webkit-image-set(url(../images/jhzf_bg.png) 1x,url(../images/jhzf_bg@2x.png) 2x,url("../images/jhzf_bg@3x.png") 3x);
-    background-image: -moz-image-set(url(../images/jhzf_bg.png) 1x,url(../images/jhzf_bg@2x.png) 2x,url("../images/jhzf_bg@3x.png") 3x);
-    background-image: -o-image-set(url(../images/jhzf_bg.png) 1x,url(../images/jhzf_bg@2x.png) 2x,url("../images/jhzf_bg@3x.png") 3x);
-    background-image: -ms-image-set(url(../images/jhzf_bg.png) 1x,url(../images/jhzf_bg@2x.png) 2x,url("../images/jhzf_bg@3x.png") 3x)
+    background-position: 0 0;
+    background-image: url(../images/jhzf_bg_c.png);
+    background-image: -webkit-image-set(url(../images/jhzf_bg_c.png) 1x,url(../images/jhzf_bg_c@2x.png) 2x,url("../images/jhzf_bg_c@3x.png") 3x);
+    background-image: -moz-image-set(url(../images/jhzf_bg_c.png) 1x,url(../images/jhzf_bg_c@2x.png) 2x,url("../images/jhzf_bg_c@3x.png") 3x);
+    background-image: -o-image-set(url(../images/jhzf_bg_c.png) 1x,url(../images/jhzf_bg_c@2x.png) 2x,url("../images/jhzf_bg_c@3x.png") 3x);
+    background-image: -ms-image-set(url(../images/jhzf_bg_c.png) 1x,url(../images/jhzf_bg_c@2x.png) 2x,url("../images/jhzf_bg_c@3x.png") 3x)
 }
 .page3-wrap-bg4{
-    width:100%;
+    position: relative;
+    opacity: 1;
     height:331px;
-    background-size:contain;
+    background-size:100% 100%;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-image: url(../images/zzfw_bg.png);
-    background-image: -webkit-image-set(url(../images/zzfw_bg.png) 1x,url(../images/zzfw_bg@2x.png) 2x,url("../images/zzfw_bg@3x.png") 3x);
-    background-image: -moz-image-set(url(../images/zzfw_bg.png) 1x,url(../images/zzfw_bg@2x.png) 2x,url("../images/zzfw_bg@3x.png") 3x);
-    background-image: -o-image-set(url(../images/zzfw_bg.png) 1x,url(../images/zzfw_bg@2x.png) 2x,url("../images/zzfw_bg@3x.png") 3x);
-    background-image: -ms-image-set(url(../images/zzfw_bg.png) 1x,url(../images/zzfw_bg@2x.png) 2x,url("../images/zzfw_bg@3x.png") 3x);
+    background-position: 0 0;
+    background-image: url(../images/zzfw_bg_c.png);
+    background-image: -webkit-image-set(url(../images/zzfw_bg_c.png) 1x,url(../images/zzfw_bg_c@2x.png) 2x,url("../images/zzfw_bg_c@3x.png") 3x);
+    background-image: -moz-image-set(url(../images/zzfw_bg_c.png) 1x,url(../images/zzfw_bg_c@2x.png) 2x,url("../images/zzfw_bg_c@3x.png") 3x);
+    background-image: -o-image-set(url(../images/zzfw_bg_c.png) 1x,url(../images/zzfw_bg_c@2x.png) 2x,url("../images/zzfw_bg_c@3x.png") 3x);
+    background-image: -ms-image-set(url(../images/zzfw_bg_c.png) 1x,url(../images/zzfw_bg_c@2x.png) 2x,url("../images/zzfw_bg_c@3x.png") 3x);
 }
 .border-bottom{
     width:20px;
@@ -249,22 +294,22 @@ body{
 }
 .page4-wrap-bg1{
     width:100%;
-    height:520px;
+    /*height:520px;*/
     background-image: url(../images/expl.png);
     background-image: -webkit-image-set(url(../images/expl.png) 1x,url(../images/expl@2x.png) 2x,url("../images/expl@3x.png") 3x);
     background-image: -moz-image-set(url(../images/expl.png) 1x,url(../images/expl@2x.png) 2x,url("../images/expl@3x.png") 3x);
     background-image: -o-image-set(url(../images/expl.png) 1x,url(../images/expl@2x.png) 2x,url("../images/expl@3x.png") 3x);
     background-image: -ms-image-set(url(../images/expl.png) 1x,url(../images/expl@2x.png) 2x,url("../images/expl@3x.png") 3x);
-    background-size:cover;
+    background-size:100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0;
 }
 .page4-wrap-bg2{
     width:100%;
-    height:520px;
-    background-size:cover;
+   /* height:520px;*/
+    background-size:100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0;
     background-image: url(../images/work.png);
     background-image: -webkit-image-set(url(../images/work.png) 1x,url(../images/work@2x.png) 2x,url("../images/work@3x.png") 3x);
     background-image: -moz-image-set(url(../images/work.png) 1x,url(../images/work@2x.png) 2x,url("../images/work@3x.png") 3x);
@@ -272,18 +317,16 @@ body{
     background-image: -ms-image-set(url(../images/work.png) 1x,url(../images/work@2x.png) 2x,url("../images/work@3x.png") 3x);
 }
 .more{
-    position: absolute;
-    top: 58%;
-    left: 45%;
     width: 50px;
-    height: 50px
+    height: 50px;
+    margin:20px auto;
 }
 .more img{
     width: 100%;
     height: 100%;
 }
 .page3Title .page4-h3{
-    line-height: 520px;
+    margin-top: 45%;
 }
 .page4-wrap-bg1 .page3Title{
     padding: 0;
@@ -314,7 +357,7 @@ body{
     border:none;
 }
 .page5-wrap1 img{
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 .page5-wrap2{
@@ -429,10 +472,10 @@ body{
 }
 /*page6*/
 .page6{
-    margin-top: 105px;
+   /* margin-top: 105px;*/
     width: 100%;
-    height:457px;
-    background-size:cover;
+   /* height:457px;*/
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/kfz_bg.png);
@@ -473,7 +516,7 @@ body{
 .event-links li {
     display: inline-block;
     text-align: center;
-    width: 19%;
+    width: 10%;
     padding: 0px;
 
 }
@@ -489,6 +532,7 @@ body{
 .event-links-img{
     /*width: 25%;*/
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .page8-foot h3{
     opacity: 0.8;
@@ -496,6 +540,7 @@ body{
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 0;
+    margin-bottom: 20px;
 }
 .page8-foot span{
     opacity: 0.8;
@@ -504,16 +549,12 @@ body{
     color: #FFFFFF;
     letter-spacing: 0;
 }
-.page8-foot{
-    height: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 .navbar-top{
     position: fixed;
     top: 0;
     width: 100%;
-    background: none;
+    background: rgba(0,0,0,.5);
     z-index: 999;
     border: none;
 }
@@ -533,6 +574,128 @@ body{
     color: #2E2E2E;
     letter-spacing: 0;
 }
-.page2-wrap .page3Title img{
-
+.pro-wrap{
+    margin-top: -40px;
+    /* min-height: 530px; */
+    padding-top: 6%;
+    overflow: auto;
+    padding-bottom: 4%;
 }
+.page-method{
+    margin-top: -40px;
+   /* padding-top: 1.7%;*/
+    padding-bottom: 9.5%;
+}
+.content-img{
+    margin-top: 70px;
+    padding-bottom: 80px
+}
+.content-img .col-sm-4{
+    margin-top: 20px;
+}
+.page5-wrap1 img{
+   margin-bottom: 60px;
+}
+.middle h3{
+    font-family: "PingFangSC-Medium";
+    font-size: 25px;
+    color: #FFFFFF;
+    letter-spacing: 5.68px;
+}
+/*字体的媒体查询*/
+
+@media (max-width: 1199px){
+    .page5 .page5-title h1{
+        font-size: 58px;
+    }
+    .page5 .page5-title h1 p{
+        font-size:16px;
+    }
+    .title-page2 h1{
+        font-size: 40px;
+    }
+    .title-page2 h1 p{
+        font-size: 40px;
+    }
+    .page4 .title-page4 h1{
+        font-size: 40px;
+    }
+    .page4 .title-page4 h1 p{
+        font-size: 40px;
+    }
+    .banner{
+        height: 610px;
+    }
+    .middle h3{
+        font-size: 25px;
+    }
+    .page6-h3 h3{
+        font-size: 40px;
+        display: none;
+    }
+    .Page6-p p{
+        margin-top: -128px;
+    }
+}
+@media (max-width: 979px){
+    .page5 .page5-title h1{
+        font-size: 30px;
+    }
+    .page5 .page5-title h1 p{
+        font-size: 20px;
+    }
+    .title-page2 h1{
+        font-size: 30px;
+    }
+    .page4 .title-page4 h1{
+        font-size: 30px;
+    }
+    .title-page2 h1 p{
+        font-size: 30px;
+    }
+    .page4 .title-page4 h1 p{
+        font-size: 30px;
+    }
+    .banner{
+        height: 500px;
+    }
+    .middle h3{
+        font-size: 20px;
+    }
+    .page6-h3 h3{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 767px){
+    .page5 .page5-title h1{
+        font-size: 28px;
+    }
+    .page5 .page5-title h1 p{
+        font-size: 12px;
+    }
+    .title-page2 h1{
+        font-size: 20px;
+    }
+    .page4 .title-page4 h1{
+        font-size: 20px;
+    }
+    .title-page2 h1 p{
+        font-size: 20px;
+    }
+    .page4 .title-page4 h1 p{
+        font-size: 20px;
+    }
+    .banner{
+        height: 310px;
+    }
+    .icon img{
+        width: 10%;
+    }
+    .middle h3{
+        font-size: 18px;
+    }
+    .page6-h3 h3{
+        font-size: 18px;
+    }
+}
+

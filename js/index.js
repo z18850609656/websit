@@ -24,7 +24,6 @@ function doMouseMove(e) {
     }
     Data.currentX = -(e.pageX - Data.startX);
     Data.currentY = -(e.pageY - Data.startY);
-//        $(".pages-1").animate({ "background-position-x": Data.currentX + "px", "background-position-y": Data.currentY + "px" },"slow");
     $(".pages-1").css({ "background-position": Data.currentX + "px "+ Data.currentY + "px" });
 }
 function doMouseOut(e) {
@@ -55,3 +54,5 @@ function moverOver4() {
 function moverOut4(){
     document.imgMouse4.src="images/dzfw_icon-c.png";
 }
+
+
